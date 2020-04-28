@@ -2,7 +2,8 @@
 /*
   Template for Header
   @package Clemo  
-*/?>
+*/
+?>
 
 <!DOCTYPE html>
 <html lang="<?php language_attributes();?>">

@@ -124,7 +124,7 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 479px) { .header-slider-text h1 { font-size: 40px; } }
 
-.header-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 150px; }
+.header-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 40%; }
 
 @media (max-width: 479px) { .header-slider-text h1:after { left: 110px; } }
 
