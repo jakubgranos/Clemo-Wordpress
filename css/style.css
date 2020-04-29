@@ -124,11 +124,11 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 479px) { .header-slider-text h1 { font-size: 40px; } }
 
-.header-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 150px; }
+.header-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 42%; }
 
 @media (max-width: 479px) { .header-slider-text h1:after { left: 110px; } }
 
-.header-slider-text p { font-family: font-montserrat-medium; font-size: 24px; margin: 0 auto; text-align: center; color: #000000; line-height: 140%; }
+.header-slider-text p { font-family: font-montserrat-medium; font-size: 24px; margin: 0 auto; text-align: center; color: #000000; line-height: 140%; max-width: 340px; }
 
 .header-slider-text a { position: absolute; bottom: 110px; }
 
