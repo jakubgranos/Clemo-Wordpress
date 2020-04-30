@@ -8,6 +8,7 @@ $button_args = [
   'class' => 'btn_black',
   'content' => $button[ 'title' ]
 ];
+
 if( have_rows( 'slider' ) ):
   while( have_rows( 'slider' ) ): the_row();
     $image = get_sub_field( 'image' );
