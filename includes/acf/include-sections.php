@@ -1,12 +1,13 @@
 <?php
 /*
-  Theme section
+  Theme sections
   @package Clemo
 */
 
 class PageSections {
   private static $blocks = array(
-    'section_header_slider' => 'header-slider/header-slider.php'
+    'section_header_slider' => 'header-slider/header-slider.php',
+    'section_grid' => 'grid/grid.php'
   );
   public static function display( $field_name = 'sections', $sec_param = null) {
     while ( have_rows( $field_name, $sec_param ) ):
