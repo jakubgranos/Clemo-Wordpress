@@ -4,7 +4,7 @@
   @package Clemo
 */
 
-function grid_post_post_type() {
+function grid_post_type() {
   $labels = array(
     'name' => 'Grid posts',
     'singular_name' => 'Grid post',
@@ -39,4 +39,4 @@ function grid_post_post_type() {
     'exclude_from_search' => false
   ));
 }
-add_action( 'init','grid_post_post_type' );
+add_action( 'init','grid_post_type' );
