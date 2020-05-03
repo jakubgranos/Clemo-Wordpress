@@ -16,7 +16,7 @@ $display_post = get_sub_field( 'display_post' );?>
   </h1> <?php 
 
   if( $display_list === 'enable' ):
-    require 'grid-list.php';
+    require 'grid-tablist.php';
   endif;
 
   switch ( $display_post ) {

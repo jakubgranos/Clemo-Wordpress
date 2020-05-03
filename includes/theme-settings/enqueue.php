@@ -13,6 +13,7 @@ function clemo_load_scripts() {
     wp_enqueue_script( 'hamburger.js', get_template_directory_uri() . '/js/hamburger.js', array(), '1.0.0', true );
     wp_enqueue_script( 'swiper.js', get_template_directory_uri() . '/js/swiper/swiper.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'swiper-header-slider.js', get_template_directory_uri() . '/js/swiper/swiper-header-slider.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'jquery1.12.1.min.js', get_template_directory_uri() . '/js/jquery.1.12.1.js', array(), '1.12.1', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'clemo_load_scripts' );
