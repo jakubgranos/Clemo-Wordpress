@@ -17,9 +17,8 @@ $tablist = get_terms( $tablist_args );?>
     foreach( $tablist as $tab ):
       $tab_name = $tab->name;
       $tab_slug = $tab->slug;?>
-      <a class="menu_list_nav" id="<?php echo $tab_slug; ?>-tab" data-toggle="tab" href="#<?php echo $tab_slug; ?>" 
-      role="tab" aria-controls="<?php echo $tab_slug; ?>" 
-      aria-selected="false"><?php echo $tab_name; ?></a> <?php
+      <a class="menu_list_nav <?php if( $tab === array_values( $tablist )[ 0 ] ) { echo "active"; } ?>" id="<?php echo $tab_slug; ?>-tab"
+      data-toggle="tab" href="#<?php echo $tab_slug; ?>" role="tab" aria-controls="<?php echo $tab_slug; ?>" aria-selected="false"><?php echo $tab_name; ?></a> <?php
     endforeach;
   endif;?>
 </div>
