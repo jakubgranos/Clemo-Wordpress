@@ -156,7 +156,9 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 .blog { padding: 20px 0 40px 0; text-align: center; }
 
-.blog-heading { margin: 0 0 76px 0; text-transform: lowercase; }
+.grid { text-align: center; }
+
+.grid-heading { text-transform: lowercase; padding: 77px 0 0px 0; }
 
 .blog a { color: #000000; }
 
@@ -168,19 +170,19 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 1023px) { .blog-post:nth-of-type(2n) { flex-direction: column; } }
 
-.blog-post-image { width: 560px; height: 500px; }
+.blog-post img { width: 560px; height: 500px; }
 
-@media (max-width: 1023px) { .blog-post-image { width: 500px; height: auto; margin: 0px 0 50px 0; } }
+@media (max-width: 1023px) { .blog-post img { width: 500px; height: auto; margin: 0px 0 50px 0; } }
 
 .blog-post-text { max-width: 500px; padding: 15px; }
 
+.blog-post-link { color: black; }
+
 .blog-post-text span { font-family: font-montserrat-medium; font-size: 30px; font-weight: 100; }
 
-.blog-post-text h2 { line-height: 90%; position: relative; }
+.blog-post-text h2 { line-height: 90%; position: relative;  width: 65%; }
 
 .blog-post-text p { margin: 50px 0 46px 0; line-height: 160%; max-height: 368px; overflow: hidden; }
-
-.blog-page-heading { padding: 77px 0 0 0; }
 
 .blog-article img { height: 500px; }
 
@@ -207,6 +209,8 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 @media (max-width: 479px) { .gallery-row { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); } }
 
 .gallery-row-column { grid-row-end: span 13; }
+
+.gallery-row-column:nth-child(5n) { grid-row-end: span 21; }
 
 .gallery-row-column img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; margin: 0px; }
 
@@ -356,7 +360,7 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 1023px) { .price-box a { margin: 30px 0 0 0; } }
 
-.tablist { padding: 0 0 95px 0; }
+.tablist { padding: 77px 0 95px 0; }
 
 .tablist a { padding: 0 15px 0 15px; color: #989898; font-family: font-montserrat-medium; font-size: 16px; }
 

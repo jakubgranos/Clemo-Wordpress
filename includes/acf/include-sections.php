@@ -1,6 +1,6 @@
 <?php
 /*
-  Theme section
+  Theme sections
   @package Clemo
 */
 
