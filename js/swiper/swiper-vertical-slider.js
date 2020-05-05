@@ -1,8 +1,8 @@
-const swiper = new Swiper( '.header-slider', {
+const swiper = new Swiper( '.vertical-slider', {
   direction: 'vertical',
   allowTouchMove: false,
   pagination: {
-    el: '.header-slider-pagination',
+    el: '.vertical-slider-pagination',
     clickable: true,
   },
   autoplay: {

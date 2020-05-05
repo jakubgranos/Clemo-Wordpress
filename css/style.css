@@ -114,27 +114,27 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 1023px) { .page-header-logo { margin: 38px 0 0 20px; } }
 
-.header-slider { min-height: 525px; background: #ffe1bd; margin: 0 0 50px 0; }
+.vertical-slider { min-height: 525px; background: #ffe1bd; margin: 0 0 50px 0; }
 
-.header-slider-text { width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
+.vertical-slider-text { width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
 
-@media (max-width: 479px) { .header-slider-text { padding: 5px; text-align: center; } }
+@media (max-width: 479px) { .vertical-slider-text { padding: 5px; text-align: center; } }
 
-.header-slider-text h1 { font-family: font-montserrat-bold; font-size: 48px; position: relative; margin: 0 0 40px 0; }
+.vertical-slider-text h1 { font-family: font-montserrat-bold; font-size: 48px; position: relative; margin: 0 0 40px 0; }
 
-@media (max-width: 479px) { .header-slider-text h1 { font-size: 40px; } }
+@media (max-width: 479px) { .vertical-slider-text h1 { font-size: 40px; } }
 
-.header-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 42%; }
+.vertical-slider-text h1:after { content: ''; display: block; width: 60px; height: 2px; background: #000000; position: absolute; bottom: -20px; left: 42%; }
 
-@media (max-width: 479px) { .header-slider-text h1:after { left: 110px; } }
+@media (max-width: 479px) { .vertical-slider-text h1:after { left: 110px; } }
 
-.header-slider-text p { font-family: font-montserrat-medium; font-size: 24px; margin: 0 auto; text-align: center; color: #000000; line-height: 140%; max-width: 340px; }
+.vertical-slider-text p { font-family: font-montserrat-medium; font-size: 24px; margin: 0 auto; text-align: center; color: #000000; line-height: 140%; max-width: 340px; }
 
-.header-slider-text a { position: absolute; bottom: 110px; }
+.vertical-slider-text a { position: absolute; bottom: 110px; }
 
-.header-slider-image { opacity: 0.2; width: 100%; height: 100%; position: absolute; z-index: -1; top: 0; left: 0; }
+.vertical-slider-image { opacity: 0.2; width: 100%; height: 100%; position: absolute; z-index: -1; top: 0; left: 0; }
 
-@media (max-width: 1023px) { .header-slider-image { -o-object-fit: cover; object-fit: cover; } }
+@media (max-width: 1023px) { .vertical-slider-image { -o-object-fit: cover; object-fit: cover; } }
 
 .swiper-wrapper, .swiper-slide-active { max-height: 525px; }
 
