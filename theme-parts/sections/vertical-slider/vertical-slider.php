@@ -16,9 +16,9 @@ if( have_rows( 'slider' ) ):
     $subheading = get_sub_field( 'subheading' );?>
     <div class="swiper-slide"> <?php 
       if( !empty( $image ) ):?>
-        <img src="<?php echo $image;?>" class="header-slider-image" alt="we are clemo."> <?php
+        <img src="<?php echo $image;?>" class="vertical-slider-image" alt="we are clemo."> <?php
       endif; ?>  
-      <div class="header-slider-text"> <?php
+      <div class="vertical-slider-text"> <?php
         if( !empty( $heading ) ):?>
           <h1><?php echo $heading;?></h1> <?php 
         endif; 
