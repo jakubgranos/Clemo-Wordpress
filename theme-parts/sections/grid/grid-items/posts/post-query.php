@@ -20,7 +20,7 @@ if( !empty( $tablists ) ):
   foreach( $tablists as $key => $tablist ):
     $tab_name = $tablist->name;
     $tab_slug = $tablist->slug;
-    $query = new WP_Query(array(
+    $query = new WP_Query( array(
       'post_type' => 'grid-post',
       'tax_query' => array(
         array(
@@ -31,7 +31,7 @@ if( !empty( $tablists ) ):
       ),
     ));?>
 
-    <article class="tab-pane fade <?php if ($key === array_key_first($tablists)) { echo "active show"; } ?>" id="<?php echo $tab_slug; ?>" role="tabpanel" 
+    <article class="tab-pane fade <?php if ( $key === array_key_first( $tablists ) ) { echo "active show"; } ?>" id="<?php echo $tab_slug; ?>" role="tabpanel" 
     aria-labelledby="<?php echo $tab_slug; ?>-tab">
       <?php require 'post-query-content.php'; ?>
     </article> <?php

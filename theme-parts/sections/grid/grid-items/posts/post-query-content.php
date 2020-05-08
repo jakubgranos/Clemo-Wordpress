@@ -2,7 +2,9 @@
 /*
   Template post query content
   @package Clemo
-*/?>
+*/
+$button_text = get_sub_field( 'button_text' );?>
+
 
 <div class="row"> <?php
   if( $query->have_posts() ):
@@ -13,7 +15,7 @@
           <div class="blog-post-text">
             <h2><?php the_title(); ?></h2>
             <?php the_content(); ?>
-            <a href="<?php echo get_permalink();?>" class="btn_transparent">learn more</a>
+            <a href="<?php echo get_permalink();?>" class="btn_transparent"><?php echo $button_text; ?></a>
           </div>
         </a>
       </div><?php 

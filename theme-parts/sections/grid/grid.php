@@ -11,7 +11,6 @@ $heading = get_sub_field( 'heading' );?>
     if( !empty( $heading ) ):
       echo $heading;
     endif;?>
-  </h1> <?php 
-
-  require 'grid-items/render-items.php';?>
+  </h1>
+  <?php require 'grid-items/display-post.php';?>
 </section>
