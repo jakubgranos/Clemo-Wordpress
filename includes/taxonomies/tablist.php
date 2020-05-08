@@ -18,7 +18,7 @@ function tablist_taxonomy() {
     'new_item_name' => 'New tablist Name',
     'menu_name' => 'Tablists',
   );
-  register_taxonomy( 'tablist', array( 'grid_post' ), array(
+  register_taxonomy( 'tablist', array( 'grid-post', 'grid-attachment' ), array(
     'hierarchical' => true,
     'labels' => $labels,
     'show_ui' => true,

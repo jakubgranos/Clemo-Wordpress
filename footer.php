@@ -8,7 +8,6 @@
 
 <footer>
   <?php wp_footer()?>
-   test
 </footer>
 </body>
 </html>
