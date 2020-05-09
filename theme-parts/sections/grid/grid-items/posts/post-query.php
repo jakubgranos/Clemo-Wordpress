@@ -4,9 +4,6 @@
   @package Clemo
 */
 
-global $post;
-$posts = get_sub_field( 'posts' );
-
 $tablists_args = array(
   'order' => 'ASC',
   'taxonomy' => 'tablist',
