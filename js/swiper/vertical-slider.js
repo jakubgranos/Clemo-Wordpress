@@ -1,4 +1,4 @@
-const swiper = new Swiper( '.vertical-slider', {
+const vertical_slider = new Swiper( '.vertical-slider', {
   direction: 'vertical',
   allowTouchMove: false,
   pagination: {
