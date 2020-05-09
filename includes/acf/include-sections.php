@@ -7,7 +7,8 @@
 class PageSections {
   private static $blocks = array(
     'section_vertical_slider' => 'vertical-slider/vertical-slider-container.php',
-    'section_grid' => 'grid/grid.php'
+    'section_grid' => 'grid/grid.php',
+    'section_horizontal_slider' => 'horizontal-slider/horizontal-slider.php'
   );
   public static function display( $field_name = 'sections', $sec_param = null) {
     while ( have_rows( $field_name, $sec_param ) ):

@@ -22,7 +22,7 @@ if( have_rows( 'slider' ) ):
         if( !empty( $heading ) ):?>
           <h1><?php echo $heading;?></h1> <?php 
         endif; 
-        if( !empty($subheading) ):?>
+        if( !empty( $subheading ) ):?>
           <p><?php echo $subheading;?></p> <?php 
         endif;
         echo wpc_get_link( $button, $button_args ); ?>
