@@ -1,6 +1,5 @@
-
-
 const client_opinion = new Swiper('.client-comment', {
+  allowTouchMove: false,
   pagination: {
     el: '.client-comment-pagination-bullets, .client-comment-pagination-thumbnail',
     clickable: true,

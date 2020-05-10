@@ -273,9 +273,12 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 1023px) { .client-comment-pagination-thumbnail { display: none; } }
 
-.client-comment-pagination-thumbnail img { width: 260px; height: 150px; border-radius: 0; -o-object-fit: cover; object-fit: cover; border: none; opacity: 0.3; transition: 0.3s all; }
+.client-comment-pagination-thumbnail img { width: 260px; height: 150px; border-radius: 0; object-fit: contain; border: none; opacity: 0.3; transition: 0.3s all; }
 
 @media (max-width: 1199px) { .client-comment-pagination-thumbnail img { width: 220px; } }
+
+.swiper-pagination-bullet { filter: blur(3px); }
+.swiper-pagination-bullet-active { background: white;  filter: blur(0px); }
 
 .client-comment-pagination-thumbnail .swiper-pagination-bullet-active { opacity: 1; }
 
