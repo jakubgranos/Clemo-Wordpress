@@ -297,7 +297,7 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 @media (max-width: 1023px) { .contact-form-column { text-align: center; max-width: 100%; } }
 
-.contact-form-column p { color: #ffffff; padding: 10px 0 10px 0; }
+.contact-form-column p { color: #ffffff; padding: 10px 0 10px 0; max-width: 490px; }
 
 .contact-form-column-social { padding: 0 0 20px 0; }
 
@@ -316,6 +316,7 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 @media (max-width: 479px) { .contact-form-inputs input, .contact-form-inputs textarea { width: 100%; } }
 
 .contact-form-inputs input { padding: 10px 0 10px 0; }
+.contact-form .btn_white { border: 1px solid #ffffff; border-radius: 25px; padding: 10px 30px 10px 30px; color: #000000; background: #ffffff; font-family: font-montserrat-light; font-size: 18px; width: 170px; cursor: pointer; }
 
 .contact-form-inputs textarea { height: 130px; margin: 0 0 60px 0; }
 
