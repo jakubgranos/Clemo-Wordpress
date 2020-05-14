@@ -3,7 +3,7 @@
   Template client opinion item
   @package Clemo
 */?>
-<script type="text/javascript">
+<script async>
   let logo
   let menu = [];
 </script> <?php
@@ -31,7 +31,7 @@ if( have_rows( 'slider' ) ):
       </div>      
     </div>
     
-    <script type="text/javascript">
+    <script async>
       logo = '<?php echo $company_logo ?>';
       menu.push(logo);               
     </script> <?php

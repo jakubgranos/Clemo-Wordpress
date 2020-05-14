@@ -1,8 +1,8 @@
-@font-face { font-family: font-montserrat-bold; src: url("../fonts/Montserrat-Bold.ttf"); }
+@font-face { font-family: font-montserrat-bold; src: url("../fonts/Montserrat-Bold.ttf"); font-display: swap; }
 
-@font-face { font-family: font-montserrat-medium; src: url("../fonts/Montserrat-Medium.ttf"); }
+@font-face { font-family: font-montserrat-medium; src: url("../fonts/Montserrat-Medium.ttf"); font-display: swap; }
 
-@font-face { font-family: font-montserrat-light; src: url("../fonts/Montserrat-Light.ttf"); }
+@font-face { font-family: font-montserrat-light; src: url("../fonts/Montserrat-Light.ttf"); font-display: swap; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -56,7 +56,7 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 .btn_white { border: 1px solid #ffffff; border-radius: 25px; padding: 10px 30px 10px 30px; color: #000000; background: #ffffff; font-family: font-montserrat-light; font-size: 18px; width: 170px; cursor: pointer; }
 
-.page-content { padding: 10px 0 0 0; border-top: 1px solid #989898; border-bottom: 1px solid #989898; }
+.page-content { border-top: 1px solid #989898; border-bottom: 1px solid #989898; }
 
 .navigation { min-height: 150px; display: flex; align-items: center; }
 
@@ -441,3 +441,5 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 .page-footer a { color: #000000; }
 
 @media screen and (max-width: 600px){#wpadminbar {position: fixed;}}
+
+.row { margin-right: 0px; margin-left: 0px; }

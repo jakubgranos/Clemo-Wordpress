@@ -4,10 +4,13 @@
   @package Clemo
 
 */
-?>
+$text = get_field( 'text', 'option' );?>
 
-<footer>
-  <?php wp_footer()?>
+<footer class="page-footer"> <?php 
+  if( !empty( $text ) ):
+    echo $text;
+  endif;
+  wp_footer()?>
 </footer>
 </body>
 </html>
