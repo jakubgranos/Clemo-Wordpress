@@ -167,7 +167,10 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 .blog-post { display: flex; margin: 86px 0 0 0; text-align: left; justify-content: space-between; min-height: 560px; }
 
 .blog-post-subheading { width: 50%; }
-@media (max-width: 1023px) { .blog-post-subheading { width: 80%; text-align: center; } }
+
+@media (max-width: 1023px) { .blog-post-subheading { width: 60%; text-align: center; } }
+
+@media (max-width: 479px) { .blog-post-subheading { width: 100%; text-align: center; } }
 
 @media (max-width: 1023px) { .blog-post-subheading::after { display: none; } }
 

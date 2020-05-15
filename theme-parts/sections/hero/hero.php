@@ -8,6 +8,7 @@ $image = get_sub_field( 'image' );
 $subheading = get_sub_field( 'subheading' );
 $side_text = get_sub_field( 'side_text' );
 $button = get_sub_field( 'button' );?>
+
 <section class="blog blog-article">
   <div class="container"> <?php
     if( !empty( $heading ) ):?>
