@@ -345,15 +345,15 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 .counter-wrapper-box p { padding: 15px 0 0 0; }
 
-.social { padding: 72px 0 60px 0; text-align: center; }
+.social-gallery { padding: 72px 0 60px 0; text-align: center; }
 
-.social-wrapper { padding: 68px 0 0 0; display: flex; justify-content: center; }
+.social-gallery-wrapper { padding: 68px 0 0 0; display: flex; justify-content: center; }
 
-@media (max-width: 1023px) { .social-wrapper { flex-direction: column; } }
+@media (max-width: 1023px) { .social-gallery-wrapper { flex-direction: column; } }
 
-.social-wrapper img { width: 19%; margin: 0 10px 0 0px; padding: 0 0 40px 0; }
+.social-gallery-wrapper img { width: 19%; margin: 0 10px 0 0px; padding: 0 0 40px 0; }
 
-@media (max-width: 1023px) { .social-wrapper img { width: 290px; margin: 0 auto; } }
+@media (max-width: 1023px) { .social-gallery-wrapper img { width: 290px; margin: 0 auto; } }
 
 .price { background: #000000; min-height: 250px; padding: 90px 0 0px 0; }
 
