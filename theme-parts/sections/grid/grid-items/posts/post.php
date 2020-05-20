@@ -13,7 +13,7 @@ if( !empty( $posts) ):
         <?php the_post_thumbnail(); ?>
         <div class="blog-post-text">
           <h2><?php the_title(); ?></h2>
-          <?php the_content();
+          <?php the_excerpt();
           if( !empty( $button_text ) ):?>
             <a href="<?php echo get_permalink();?>" class="btn_transparent"><?php echo $button_text; ?></a> <?php 
           endif;?>

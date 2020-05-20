@@ -12,7 +12,8 @@ class PageSections {
     'section_client_opinion' => 'client-opinion/client-opinion.php',
     'section_contact' => 'contact/contact.php',
     'section_hero' => 'hero/hero.php',
-    'section_counter' => 'counter/counter.php'
+    'section_counter' => 'counter/counter.php',
+    'section_gallery_row' => 'gallery-row/gallery-row.php'
   );
   public static function display( $field_name = 'sections', $sec_param = null) {
     while ( have_rows( $field_name, $sec_param ) ):

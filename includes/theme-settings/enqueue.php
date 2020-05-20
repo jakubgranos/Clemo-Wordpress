@@ -17,6 +17,7 @@ function clemo_load_scripts() {
     wp_enqueue_script( 'bootstrap.min.js', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '4.3.1', true );
     wp_enqueue_script( 'horizontal-slider.js', get_template_directory_uri() . '/js/swiper/horizontal-slider.js', array(), '1.0.0', true );
     wp_enqueue_script( 'client-opinion.js', get_template_directory_uri() . '/js/swiper/client-opinion.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'related-posts.js', get_template_directory_uri() . '/js/swiper/related-posts.js', array(), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'clemo_load_scripts' );
