@@ -430,6 +430,8 @@ p { font-size: 18px; font-family: font-montserrat-medium; color: #989898; }
 
 .related-posts-content { padding: 50px 0px 0 41px; text-align: left; }
 
+.related-posts-content-link { color: black }
+
 .related-posts-content h2:after { left: 0px; }
 
 .related-posts-pagination { bottom: 90px; }

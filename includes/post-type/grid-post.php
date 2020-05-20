@@ -32,7 +32,8 @@ function grid_post_type() {
       'title',
       'editor',
       'thumbnail',
-      'revisions'
+      'revisions',
+      'excerpt'
     ),
     'taxonomies' => array( 'post_tag' ),
     'menu_position' => 4,

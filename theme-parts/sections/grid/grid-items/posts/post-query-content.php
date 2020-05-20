@@ -13,7 +13,7 @@ $button_text = get_sub_field( 'button_text' );?>
         <div class="blog-post-text">
           <a href="<?php echo get_permalink();?>" class="blog-post-link">
             <h2><?php the_title(); ?></h2>
-            <?php the_content();
+            <?php 
             if( !empty( $button_text ) ):?>
               <a href="<?php echo get_permalink();?>" class="btn_transparent"><?php echo $button_text; ?></a> <?php 
             endif;?>
