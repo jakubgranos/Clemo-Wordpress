@@ -1,4 +1,5 @@
 const horizontal_slider = new Swiper('.horizontal-slider', {
+  allowTouchMove: false,
   pagination: {
     el: '.horizontal-slider-pagination',
     clickable: true,
