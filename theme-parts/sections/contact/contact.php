@@ -14,7 +14,7 @@ $form = get_sub_field( 'form' );?>
     <div class="contact-form-wrapper"> <?php 
       require 'contact-side-informations.php';
       if( !empty( $form ) ):
-        echo do_shortcode($form);
+        echo do_shortcode( $form );
       endif;?>
     </div>  
   </div>
